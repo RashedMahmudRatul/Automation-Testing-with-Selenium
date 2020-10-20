@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37824" started-at="2020-10-21T03:31:45 BDT" finished-at="2020-10-21T03:32:23 BDT">
+    <groups>
+    </groups>
+    <test name="CrossBrowserTest_Firefox" duration-ms="21681" started-at="2020-10-21T03:31:45 BDT" finished-at="2020-10-21T03:32:07 BDT">
+      <class name="com.LoginTest.LoginTC_2">
+        <test-method status="PASS" signature="browser_Config(java.lang.String)[pri:0, instance:com.LoginTest.LoginTC_2@bd8db5a]" name="browser_Config" is-config="true" duration-ms="4800" started-at="2020-10-21T03:31:56 BDT" finished-at="2020-10-21T03:32:01 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Config -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.LoginTest.LoginTC_2@bd8db5a]" name="login" duration-ms="5602" started-at="2020-10-21T03:32:01 BDT" description="login with valid Email and pass" finished-at="2020-10-21T03:32:07 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.LoginTest.LoginTC_2 -->
+      <class name="com.LoginTest.LoginTC_1">
+        <test-method status="PASS" signature="browser_Config(java.lang.String)[pri:0, instance:com.LoginTest.LoginTC_1@78e67e0a]" name="browser_Config" is-config="true" duration-ms="6678" started-at="2020-10-21T03:31:45 BDT" finished-at="2020-10-21T03:31:52 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Config -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.LoginTest.LoginTC_1@78e67e0a]" name="login" duration-ms="4543" started-at="2020-10-21T03:31:52 BDT" description="login with invalid Email" finished-at="2020-10-21T03:31:56 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="captureScreen(org.openqa.selenium.WebDriver, java.lang.String)[pri:0, instance:com.LoginTest.LoginTC_1@78e67e0a]" name="captureScreen" is-config="true" duration-ms="-1603229527262" started-at="2020-10-21T03:32:07 BDT" finished-at="1970-01-01T06:00:00 BDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated captureScreen.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated captureScreen.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.afterRun(TestRunner.java:847)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+      </class> <!-- com.LoginTest.LoginTC_1 -->
+    </test> <!-- CrossBrowserTest_Firefox -->
+    <test name="CrossBrowserTest_Cfrome" duration-ms="16077" started-at="2020-10-21T03:32:07 BDT" finished-at="2020-10-21T03:32:23 BDT">
+      <class name="com.LoginTest.LoginTC_2">
+        <test-method status="PASS" signature="browser_Config(java.lang.String)[pri:0, instance:com.LoginTest.LoginTC_2@60285225]" name="browser_Config" is-config="true" duration-ms="3475" started-at="2020-10-21T03:32:14 BDT" finished-at="2020-10-21T03:32:18 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Config -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.LoginTest.LoginTC_2@60285225]" name="login" duration-ms="5375" started-at="2020-10-21T03:32:18 BDT" description="login with valid Email and pass" finished-at="2020-10-21T03:32:23 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.LoginTest.LoginTC_2 -->
+      <class name="com.LoginTest.LoginTC_1">
+        <test-method status="PASS" signature="browser_Config(java.lang.String)[pri:0, instance:com.LoginTest.LoginTC_1@29b5cd00]" name="browser_Config" is-config="true" duration-ms="3584" started-at="2020-10-21T03:32:07 BDT" finished-at="2020-10-21T03:32:10 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Config -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.LoginTest.LoginTC_1@29b5cd00]" name="login" duration-ms="3634" started-at="2020-10-21T03:32:10 BDT" description="login with invalid Email" finished-at="2020-10-21T03:32:14 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="captureScreen(org.openqa.selenium.WebDriver, java.lang.String)[pri:0, instance:com.LoginTest.LoginTC_1@29b5cd00]" name="captureScreen" is-config="true" duration-ms="-1603229543416" started-at="2020-10-21T03:32:23 BDT" finished-at="1970-01-01T06:00:00 BDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated captureScreen.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated captureScreen.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.afterRun(TestRunner.java:847)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+      </class> <!-- com.LoginTest.LoginTC_1 -->
+    </test> <!-- CrossBrowserTest_Cfrome -->
+  </suite> <!-- Suite -->
+</testng-results>
